@@ -32,9 +32,9 @@ def main():
             first_word_done = True
 
 
-##  start to make the second word and on that was split from sentence
+##  start to make the second word and word after the second word split from the sentence
 ##  to change the first letter to upper case and rest of the letter in word to
-##  to lower case
+##  lower case
         else:
             camel = camelcase_word(word)
 
