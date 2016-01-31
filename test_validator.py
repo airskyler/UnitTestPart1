@@ -32,11 +32,11 @@ class TestWord(unittest.TestCase):
 
 
         words = validator.split('Many spaces in different sentence')
-        wList = ['Many', 'space', 'in', ' different', 'sentence']
+        wList = ['Many', 'space', 'in', 'different', 'sentence']
         self.assertEquals(words, wList)
 
 
-
+##  testing to see, if the setence will split, even there is a extra space in beginning of the sentence
         words = validator.split(' start spaces ')
         wList = ['start', 'spaces']
         self.assertEqual(words, wList)
